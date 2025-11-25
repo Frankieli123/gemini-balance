@@ -8,7 +8,7 @@ COPY ./VERSION /app
 
 RUN pip install --no-cache-dir -r requirements.txt
 COPY ./app /app/app
-ENV API_KEYS='["your_api_key_1"]'
+ENV API_KEYS='["AIzaSyCAUQZz0Jmhwbrov0luVy9IMRBKaNn273A"]'
 ENV ALLOWED_TOKENS='["a3865373"]'
 ENV TZ='Asia/Shanghai'
 
